@@ -1,0 +1,25 @@
+{
+    "name": "strapi-plugin-role-select",
+    "description": "A strapi custom field for a multi select input.",
+    "keywords": [
+        "strapi",
+        "strapi-plugin",
+        "custom-fields",
+        "role-select"
+    ],
+    "version": "1.1.0",
+    "strapi": {
+        "name": "role-select",
+        "description": "A strapi custom field for a role select input.",
+        "kind": "plugin",
+        "displayName": "Role-Select"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@strapi/strapi": "^4.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/demig00d/strapi-plugin-role-select"
+    }
+}
