@@ -22,30 +22,6 @@ export default {
         Input: async () => import('./components/RoleSelect'),
       },
       options: {
-        base: [
-          {
-            sectionTitle: null,
-            items: [
-              {
-                name: 'options',
-                type: 'textarea-enum',
-                intlLabel: {
-                  id: getTrad('role-select.enum.label'),
-                  defaultMessage: 'Options (one per line)',
-                },
-                description: {
-                  id: getTrad('role-select.enum.description'),
-                  defaultMessage:
-                    'Enter one option per line. You can also add a value and a label separated by a colon (e.g. "label:value").\nIf no value is provided, the label will be used as the value.',
-                },
-                placeholder: {
-                  id: getTrad('role-select.enum.placeholder'),
-                  defaultMessage: 'Ex:\nOption 1\nOption 2\nOption 3:option-3',
-                },
-              },
-            ],
-          },
-        ],
         advanced: [
           {
             sectionTitle: {
