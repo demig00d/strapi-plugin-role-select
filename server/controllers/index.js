@@ -1,5 +1,5 @@
 "use strict";
 
 module.exports = {
-  tasks: require("./tasks"),
+  roles: require("./roles"),
 };

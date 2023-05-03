@@ -6,7 +6,7 @@ module.exports = {
     {
       method: 'GET',
       path: '/roles/:id',
-      handler: 'tasks.listRoles',
+      handler: 'roles.listRoles',
     },
   ],
 };
